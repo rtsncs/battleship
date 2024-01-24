@@ -1,0 +1,26 @@
+Ten projekt to implementacja gry Statki w pygame.
+Gra polega na odgadnięciu położenia i zatopieniu statków przeciwnika.
+Przed rozpoczęciem gry można dostosować położenie swoich statków.
+Statki można przesuwać trzymając lewy przycisk myszy i przeciągając statek w
+odpowiednie miejsce. Prawym przyciskiem myszy można obracać statki. Statki
+nie mogą się stykać ani bokami, ani rogami. Klawiszem R można wylosować
+nowy układ statków. Klawisz Enter rozpoczyna rozgrywkę.
+
+Aby oddać strzał należy kliknąć na jakieś pole na planszy przeciwnika.
+Trafienia są zaznaczone na czerwono. Strzały oddaje się naprzemiennie.
+W przypadku trafionego strzału można oddać kolejny, aż do momentu chybienia.
+Podczas gry klawisz R pozwala zrestartować rozgrywkę.
+
+Przeciwnik oddaje losowe strzały, do momentu trafienia w jakiś statek. Wtedy 
+będzie próbował go zatopić.
+
+Wygrywa ten kto pierwszy zatopi wszystkie statki przeciwnika.
+
+Wymagania:
+- Python 3 (testowane na wersji 3.11.6)
+- pygame (testowane na wersji 2.4.0)
+
+Uruchomienie:
+    ./game.py
+albo
+    python game.py
